@@ -1,0 +1,15 @@
+{
+    "name": "HaynesProVehicleInformation",
+    "description": "Package generated from http://www.haynespro-services.com/workshopServices3/services/DataServiceEndpoint?wsdl using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "ext-mbstring": "*",
+        "wsdltophp/packagebase": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "./src/"
+        }
+    }
+}
